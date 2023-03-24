@@ -7,7 +7,7 @@ A linter that checks excess package name
 # Install
 
 ```
-go install github.com/ek220/excesspkgname/...
+go install github.com/ek220/excesspkgname/...@v1.0.0
 ```
 
 # Run
