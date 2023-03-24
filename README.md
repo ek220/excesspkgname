@@ -10,7 +10,7 @@ import (
 	"fmt"            // ok
 	http "net/http"  // excess package name
 	os2 "os"         // ok
-	sync "sync"      // // excess package name
+	sync "sync"      // excess package name
 )
 
 ```
