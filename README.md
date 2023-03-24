@@ -4,6 +4,17 @@
 
 A linter that checks excess package name
 
+```
+import (
+	_ "database/sql" // ok
+	"fmt"            // ok
+	http "net/http"  // excess package name
+	os2 "os"         // ok
+	sync "sync"      // // excess package name
+)
+
+```
+
 # Install
 
 ```
